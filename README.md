@@ -1,7 +1,7 @@
 # EngInventory
 EngInventory - 2019 Baroque edit
 
-One-bag with item type auto-sort. I've modded it to use sensible categorization/auto sorting for both leveling and end-game Vanilla.
+One-bag with item type auto-sort. I've modded it to use sensible categorization/auto sorting for both leveling and end-game Vanilla 1.12.
 
 Modifications:
 
