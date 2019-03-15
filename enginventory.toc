@@ -1,0 +1,10 @@
+## Interface: 11200
+## Title: EngInventory
+## Notes: AutoSorting Inventory Replacement - 20190314 edit by Baroque
+## Author: Engival - edited by Baroque
+## RequiredDeps: 
+## OptionalDeps: lootlink, auctioneer, equipcompare
+## SavedVariables: EngInventoryConfig
+## Dependencies: 
+enginventory.xml
+ei_options.xml
