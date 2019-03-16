@@ -15,6 +15,7 @@ Modifications:
 
 **Difference examples**, the general idea is that consumables which share buff slots or cooldowns, should be grouped. The same applies to tokens and class items.
 
+**Demo video across all classes**: https://www.youtube.com/watch?v=YBkd8vHO25I
 
 **Rogue**
 
@@ -22,16 +23,8 @@ Original version left / Baroque edit right
 
 ![img](https://imgur.com/jCUSbgF.png)
 
-
-
-
 **Mage**
 
 Original version left / Baroque edit right
 
 ![img](https://imgur.com/lf0tfw9.png)
-
-
-
-
-**Demo video across all classes**: https://www.youtube.com/watch?v=YBkd8vHO25I
