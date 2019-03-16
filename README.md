@@ -13,7 +13,7 @@ Modifications:
 - Modified categorization string search patterns
 - Added over 200 items to specifically categorize (default override)
 
-**Difference examples**, the general idea is that consumables which share buff slots or cooldowns, should be grouped. The same applies to tokens.
+**Difference examples**, the general idea is that consumables which share buff slots or cooldowns, should be grouped. The same applies to tokens and class items.
 
 
 **Rogue**
