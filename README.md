@@ -17,9 +17,13 @@ Modifications:
 The general idea is that similar consumables should be grouped. The same applies to tokens and class items. Also, buffs which are clicked pre-combat (food buffs, elixirs, weapon buffs), are placed to the left, for easy ergonomic access. Potions and runes should always be keybound to action bars, so they're placed to the right. Item sorting is split to 15 groups, with most having subgroups as well:
 
 15: explosives / 14: projectiles, soul shards / 13: gray items, empty bag slots
+
 12: boe items, class books, recipees, general reagents, tradegoods / 11: tradeskill, tradeskill created / 10: other soulbound
+
 9: rogue poisons, weapon buffs / 8: other keys, quest items, misc items, tokens / 7: gear which has been equipped
+
 6: flasks, zanza buffs, blasted land buffs, elixirs / 5: bandages, juju's, other consumables / 4: potions, runes
+
 3: food (including food buffs), drinks / 2: class reagents / 1: hearthstone, passive class items, trade tools, mounts, mini pets
 
 Within a group, subgroups are alphabetically sorted.
