@@ -14,7 +14,7 @@ Modifications:
 - Modified categorization string search patterns
 - Added over 200 items to specifically categorize (default override)
 
-The general idea is that consumables which share buff slots or cooldowns, should be grouped. The same applies to tokens and class items. Also, buffs which are clicked (pre-combat: food, elixirs, weapon buffs), are placed to the left. This leads to the following 15 groups, with subgroups:
+The general idea is that similar consumables which share buff slots or cooldowns, should be grouped. The same applies to tokens and class items. Also, buffs which are clicked (pre-combat: food, elixirs, weapon buffs), are placed to the left, for easier ergonomic access (potions and runes should always be keybound obviously). This leads to the following 15 groups, with subgroups:
 
 15: explosives / 14: projectiles, soul shards / 13: gray items, empty bag slots
 
