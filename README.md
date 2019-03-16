@@ -18,7 +18,7 @@ The general idea is that similar consumables should be grouped. The same applies
 
 15: explosives / 14: projectiles, soul shards / 13: gray items, empty bag slots
 
-12: boe items, class books, recipees, general reagents, tradegoods / 11: tradeskill, tradeskill created / 10: other soulbound
+12: boe items, class books, recipes, general reagents, tradegoods / 11: tradeskill, tradeskill created / 10: other soulbound
 
 9: rogue poisons, weapon buffs / 8: other keys, quest items, misc items, tokens / 7: gear which has been equipped
 
