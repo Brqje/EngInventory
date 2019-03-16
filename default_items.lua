@@ -1,4 +1,4 @@
-﻿
+
 --[[
 	Item format:
 
@@ -8,9 +8,8 @@
 
 --]]
 
-EngBags_DefaultItemOverrides = {
+EngInventory_DefaultItemOverrides = {
 
-	-- Vanilla
 	["6948:0:0:0-SB"] = "HEARTH",		-- Hearthstone
 	["21213:0:0:0"] = "MOUNT",	-- Preserved Holly (technically a consumable)
 	["7005:0:0:0"] = "TRADETOOLS",		-- Skinning Knife
@@ -121,11 +120,11 @@ EngBags_DefaultItemOverrides = {
 	["13512:0:0:0"] = "ELIXIR",	-- Flask of Supreme Power
 	["13513:0:0:0"] = "ELIXIR",	-- Flask of Chromatic Resistance
 	["13506:0:0:0"] = "ELIXIR",	-- Flask of Petrification
-	["9088:0:0:0"] = "ELIXIR_GUARDIAN",	-- Gift of Arthas
-	["3388:0:0:0"] = "ELIXIR_GUARDIAN",	-- Strong Troll's Blood Potion
-	["3826:0:0:0"] = "ELIXIR_GUARDIAN",	-- Mighty Troll's Blood Potion
-	["20004:0:0:0"] = "ELIXIR_GUARDIAN",	-- Major Troll's Blood Potion
-	["20007:0:0:0"] = "ELIXIR_GUARDIAN",	-- Mageblood Potion
+	["9088:0:0:0"] = "ELIXIR",	-- Gift of Arthas
+	["3388:0:0:0"] = "ELIXIR",	-- Strong Troll's Blood Potion
+	["3826:0:0:0"] = "ELIXIR",	-- Mighty Troll's Blood Potion
+	["20004:0:0:0"] = "ELIXIR",	-- Major Troll's Blood Potion
+	["20007:0:0:0"] = "ELIXIR",	-- Mageblood Potion
 	["17349:0:0:0-SB"] = "POTION",	-- Superior Healing Draught
 	["17348:0:0:0-SB"] = "POTION",	-- Major Healing Draught
 	["17352:0:0:0-SB"] = "POTION",	-- Superior Mana Draught
@@ -153,7 +152,7 @@ EngBags_DefaultItemOverrides = {
 	["8529:0:0:0-SB"] = "CONSUMABLE",	-- Noggenfogger Elixir (technically a consumable indeed)
 	["4388:0:0:0"] = "CONSUMABLE",	-- Discombobulator Ray
 	["5052:0:0:0"] = "CONSUMABLE",	-- Unconscious Dig Rat
-	["12820:0:0:0"] = "ELIXIR_BATTLE",	-- Winterfall Firewater
+	["12820:0:0:0"] = "JUJU",	-- Winterfall Firewater (technically not a JuJu, though buff slot is shared with Juju Might)
 	["10646:0:0:0"] = "EXPLOSIVE",	-- Goblin Sapper Charge
 	["13180:0:0:0-SB"] = "EXPLOSIVE",	-- Stratholme Holy Water
 	["8956:0:0:0"] = "EXPLOSIVE",	-- Oil of Immolation
@@ -240,93 +239,11 @@ EngBags_DefaultItemOverrides = {
 	["15138:0:0:0-SB"] = "KEYS_1_OTHER",	-- Onyxia Scale Cloak
 	["21986:0:0:0-SB"] = "KEYS_1_OTHER",	-- Banner of Provocation
 	["22014:0:0:0-SB"] = "KEYS_1_OTHER",	-- Hallowed Brazier
-	-- TBC
-	["32664:0:0:0-SB"] = "TRADETOOLS",		-- Runed Fel Iron Rod
-	["32665:0:0:0-SB"] = "TRADETOOLS",		-- Runed Adamantite Rod
-	["13503:0:0:0-SB"] = "TRADETOOLS",		-- Alchemist's Stone
-	["47046:0:0:0-SB"] = "TRADETOOLS",		-- Guardian's Alchemist Stone
-	["47048:0:0:0-SB"] = "TRADETOOLS",		-- Sorcerer's Alchemist Stone
-	["47049:0:0:0-SB"] = "TRADETOOLS",		-- Redeemer's Alchemist Stone
-	["47050:0:0:0-SB"] = "TRADETOOLS",		-- Assassin's Alchemist Stone
-	["21927:0:0:0"] = "ROGUE_POISON",	-- Instant Poison VII
-	["22054:0:0:0"] = "ROGUE_POISON",	-- Deadly Poison VII
-	["22053:0:0:0"] = "ROGUE_POISON",	-- Deadly Poison VI
-	["22055:0:0:0"] = "ROGUE_POISON",	-- Wound Poison V
-	["21835:0:0:0"] = "ROGUE_POISON",	-- Anesthetic Poison
-	["23528:0:0:0"] = "WEAPON_BUFF",	-- Fel Sharpening Stone
-	["28420:0:0:0"] = "WEAPON_BUFF",	-- Fel Weightstone
-	["22521:0:0:0"] = "WEAPON_BUFF",	-- Superior Mana Oil
-	["22522:0:0:0"] = "WEAPON_BUFF",	-- Superior Wizard Oil
-	["27736:0:0:0"] = "RECIPE",	-- Master Cookbook
-	["22012:0:0:0"] = "MANUAL",	-- Master First Aid - Doctor in the House
-	["27532:0:0:0"] = "MANUAL",	-- Master Fishing - The Art of Angling
-	["22861:0:0:0"] = "ELIXIR",	-- Flask of Blinding Light
-	["22851:0:0:0"] = "ELIXIR",	-- Flask of Fortification
-	["22853:0:0:0"] = "ELIXIR",	-- Flask of Mighty Restoration
-	["22866:0:0:0"] = "ELIXIR",	-- Flask of Pure Death
-	["22854:0:0:0"] = "ELIXIR",	-- Flask of Relentless Assault
-	["33208:0:0:0"] = "ELIXIR",	-- Flask of Chromatic Wonder
-	["35717:0:0:0-SB"] = "ELIXIR",	-- Shattrath Flask of Blinding Light
-	["32898:0:0:0-SB"] = "ELIXIR",	-- Shattrath Flask of Fortification
-	["32899:0:0:0-SB"] = "ELIXIR",	-- Shattrath Flask of Mighty Restoration
-	["35716:0:0:0-SB"] = "ELIXIR",	-- Shattrath Flask of Pure Death
-	["32901:0:0:0-SB"] = "ELIXIR",	-- Shattrath Flask of Relentless Assault
-	["32900:0:0:0-SB"] = "ELIXIR",	-- Shattrath Flask of Supreme Power
-	["32596:0:0:0"] = "ELIXIR",	-- Unstable Flask of the Elder
-	["32597:0:0:0"] = "ELIXIR",	-- Unstable Flask of the Soldier
-	["32598:0:0:0"] = "ELIXIR",	-- Unstable Flask of the Beast
-	["32599:0:0:0"] = "ELIXIR",	-- Unstable Flask of the Bandit
-	["32600:0:0:0"] = "ELIXIR",	-- Unstable Flask of the Physician
-	["32601:0:0:0"] = "ELIXIR",	-- Unstable Flask of the Sorcerer
-	["32902:0:0:0"] = "POTION",	-- Bottled Nethergon Energy	
-	["32905:0:0:0"] = "POTION",	-- Bottled Nethergon Vapor
-	["23827:0:0:0"] = "EXPLOSIVE",	-- Super Sapper Charge
-	["24579:0:0:0-SB"] = "TOKEN_2_HONORHOLD",	-- Mark of Honor Hold
-	["24520:0:0:0-SB"] = "TOKEN_2_HONORHOLD",	-- Honor Hold Favor (technically a consumable)
-	["24581:0:0:0-SB"] = "TOKEN_2_THRALLMAR",	-- Mark of Thrallmar
-	["24522:0:0:0-SB"] = "TOKEN_2_THRALLMAR",	-- Thrallmar Favor (technically a consumable)
-	["24401:0:0:0"] = "TOKEN_2_CENARIONEXPEDITION",	-- Unidentified Plant Parts
-	["24402:0:0:0-SB"] = "TOKEN_2_CENARIONEXPEDITION",	-- Uncatalogued Species
-	["24407:0:0:0-SB"] = "TOKEN_2_CENARIONEXPEDITION",	-- Package of Identified Plants
-	["24368:0:0:0"] = "TOKEN_2_CENARIONEXPEDITION",	-- Coilfang Armaments
-	["24245:0:0:0"] = "TOKEN_2_SPOREGGAR",	-- Glowcap
-	["25719:0:0:0"] = "TOKEN_2_LOWERCITY",	-- Arakkoa Feather
-	["29740:0:0:0"] = "TOKEN_2_ALDOR",	-- Fel Armament
-	["29425:0:0:0"] = "TOKEN_2_ALDOR",	-- Mark of Kil'jaeden
-	["30809:0:0:0"] = "TOKEN_2_ALDOR",	-- Mark of Sargeras
-	["29739:0:0:0"] = "TOKEN_2_SCRYER",	-- Arcane Tome
-	["29426:0:0:0"] = "TOKEN_2_SCRYER",	-- Firewing Signet
-	["30810:0:0:0"] = "TOKEN_2_SCRYER",	-- Sunfury Signet
-	["25416:0:0:0"] = "TOKEN_2_THECONSORTIUM",	-- Oshu'gun Crystal Fragment
-	["25463:0:0:0"] = "TOKEN_2_THECONSORTIUM",	-- Pair of Ivory Tusks
-	["25433:0:0:0-SB"] = "TOKEN_2_THECONSORTIUM",	-- Obsidian Warbeads
-	["29209:0:0:0-SB"] = "TOKEN_2_THECONSORTIUM",	-- Zaxxis Insignia
-	["32569:0:0:0-SB"] = "TOKEN_2_OGRILA",	-- Apexis Shard
-	["32572:0:0:0-SB"] = "TOKEN_2_OGRILA",	-- Apexis Crystal
-	["29434:0:0:0-SB"] = "TOKEN_2_INSTANCE",	-- Badge of Justice
-	["32897:0:0:0"] = "TOKEN_2_INSTANCE",	-- Mark of the Illidari
-	["27991:0:0:0-SB"] = "KEYS_2",	-- Shadow Labyrinth Key
-	["28395:0:0:0-SB"] = "KEYS_2",	-- Shattered Halls Key
-	["31084:0:0:0-SB"] = "KEYS_2",	-- Key to the Arcatraz
-	["24490:0:0:0-SB"] = "KEYS_2",	-- The Master's Key
-	["30622:0:0:0-SB"] = "KEYS_2",	-- Flamewrought Key (alliance)
-	["30637:0:0:0-SB"] = "KEYS_2",	-- Flamewrought Key (horde)
-	["30623:0:0:0-SB"] = "KEYS_2",	-- Reservoir Key
-	["30633:0:0:0-SB"] = "KEYS_2",	-- Auchenai Key
-	["30635:0:0:0-SB"] = "KEYS_2",	-- Key of Time
-	["30634:0:0:0-SB"] = "KEYS_2",	-- Warpforged Key
-	["24140:0:0:0-SB"] = "KEYS_2_OTHER",	-- Blackened Urn
-	["31704:0:0:0-SB"] = "KEYS_2",	-- The Tempest Key
-	["32649:0:0:0-SB"] = "KEYS_2_OTHER",	-- Medallion of Karabor
-	["32757:0:0:0-SB"] = "KEYS_2_OTHER",	-- Blessed Medallion of Karabor
-	["22797:0:0:0"] = "RUNE",	-- Nightmare Seed
-	["22795:0:0:0"] = "RUNE",	-- Fel Blossom
 
-	
 }
 
-EngBags_DefaultSearchItemsINSERTTO = 2;
-EngBags_DefaultSearchList = {
+EngInventory_DefaultSearchItemsINSERTTO = 2;
+EngInventory_DefaultSearchList = {
 	-- Catagory, Keywords, Tooltip Search, ItemType
 	-- if you put loc::, the end of the string will be looked up in the localization table
 	-- matching patterns in lines placed higher in this list will have precedence over matching patterns in lines placed lower in this list
@@ -367,7 +284,8 @@ EngBags_DefaultSearchList = {
 	{ "EQUIPPED_19_RANGED",		"EQUIPPED",			"Crossbow",	"" }, -- InventorySlotId 18
 	{ "EQUIPPED_19_RANGED",		"EQUIPPED",			"Ranged",	"" }, -- InventorySlotId 18
 	{ "EQUIPPED_19_RANGED",		"EQUIPPED",			"Gun",	"" }, -- InventorySlotId 18
-	{ "EQUIPPED_19_RANGED",		"EQUIPPED",			"Thrown",	"" }, -- InventorySlotId 18
+	-- Thrown weapons get consumed in Vanilla
+	-- { "EQUIPPED_19_RANGED",		"EQUIPPED",			"Thrown",	"" }, -- InventorySlotId 18
 	{ "EQUIPPED_19_RANGED",		"EQUIPPED",			"Wand",	"" }, -- InventorySlotId 18
 	{ "EQUIPPED_19_RANGED",		"EQUIPPED",			"Relic",	"" }, -- InventorySlotId 18
 	{ "EQUIPPED",			"EQUIPPED",			"",	"" },
@@ -417,8 +335,10 @@ EngBags_DefaultSearchList = {
 	{ "OTHERSOULBOUND_19_RANGED",		"SOULBOUND",			"Crossbow",	"" }, -- InventorySlotId 18
 	{ "OTHERSOULBOUND_19_RANGED",		"SOULBOUND",			"Ranged",	"" }, -- InventorySlotId 18
 	{ "OTHERSOULBOUND_19_RANGED",		"SOULBOUND",			"Gun",	"" }, -- InventorySlotId 18
-	{ "OTHERSOULBOUND_19_RANGED",		"SOULBOUND",			"Thrown",	"" }, -- InventorySlotId 18
+	-- Thrown weapons get consumed in Vanilla
+	-- { "OTHERSOULBOUND_19_RANGED",		"SOULBOUND",			"Thrown",	"" }, -- InventorySlotId 18
 	{ "OTHERSOULBOUND_19_RANGED",		"SOULBOUND",			"Wand",	"" }, -- InventorySlotId 18
 	{ "OTHERSOULBOUND_19_RANGED",		"SOULBOUND",			"Relic",	"" }, -- InventorySlotId 18
 	{ "OTHERSOULBOUND",		"SOULBOUND",			"",	"" }
+
 }
