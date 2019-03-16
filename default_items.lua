@@ -283,7 +283,7 @@ EngInventory_DefaultSearchList = {
 	{ "EQUIPPED_19_RANGED",		"EQUIPPED",			"Crossbow",	"" }, -- InventorySlotId 18
 	{ "EQUIPPED_19_RANGED",		"EQUIPPED",			"Ranged",	"" }, -- InventorySlotId 18
 	{ "EQUIPPED_19_RANGED",		"EQUIPPED",			"Gun",	"" }, -- InventorySlotId 18
-	{ "EQUIPPED_19_RANGED",		"EQUIPPED",			"Thrown",	"" }, -- InventorySlotId 18
+	-- { "EQUIPPED_19_RANGED",		"EQUIPPED",			"Thrown",	"" }, -- InventorySlotId 18
 	{ "EQUIPPED_19_RANGED",		"EQUIPPED",			"Wand",	"" }, -- InventorySlotId 18
 	{ "EQUIPPED_19_RANGED",		"EQUIPPED",			"Relic",	"" }, -- InventorySlotId 18
 	{ "EQUIPPED",			"EQUIPPED",			"",	"" },
@@ -333,7 +333,7 @@ EngInventory_DefaultSearchList = {
 	{ "OTHERSOULBOUND_19_RANGED",		"SOULBOUND",			"Crossbow",	"" }, -- InventorySlotId 18
 	{ "OTHERSOULBOUND_19_RANGED",		"SOULBOUND",			"Ranged",	"" }, -- InventorySlotId 18
 	{ "OTHERSOULBOUND_19_RANGED",		"SOULBOUND",			"Gun",	"" }, -- InventorySlotId 18
-	{ "OTHERSOULBOUND_19_RANGED",		"SOULBOUND",			"Thrown",	"" }, -- InventorySlotId 18
+	-- { "OTHERSOULBOUND_19_RANGED",		"SOULBOUND",			"Thrown",	"" }, -- InventorySlotId 18
 	{ "OTHERSOULBOUND_19_RANGED",		"SOULBOUND",			"Wand",	"" }, -- InventorySlotId 18
 	{ "OTHERSOULBOUND_19_RANGED",		"SOULBOUND",			"Relic",	"" }, -- InventorySlotId 18
 	{ "OTHERSOULBOUND",		"SOULBOUND",			"",	"" }
