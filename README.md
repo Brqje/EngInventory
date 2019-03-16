@@ -41,6 +41,6 @@ Original version left / Baroque edit right
 
 ![img](https://imgur.com/lf0tfw9.png)
 
-Screenshot taken while testing consumable categorization:
+**Screenshot taken while testing consumable categorization:**
 
 ![img](https://imgur.com/LsXfAPa.png)
