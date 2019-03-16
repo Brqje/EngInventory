@@ -25,9 +25,9 @@ The general idea is that similar consumables which share buff slots or cooldowns
 Within a group, subgroups are alphabetically sorted.
 Within a subgroup, items are also alphabetically sorted.
 
-**Difference examples, EngInventory original version vs Baroque edit**
-
 **Demo video across all classes**: https://www.youtube.com/watch?v=YBkd8vHO25I
+
+**Difference examples, EngInventory original version vs Baroque edit:**
 
 **Rogue**
 
