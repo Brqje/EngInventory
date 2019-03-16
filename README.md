@@ -13,21 +13,24 @@ Modifications:
 - Modified categorization string search patterns
 - Added over 200 items to specifically categorize (default override)
 
-**Difference examples**
+**Difference examples**, the general idea is that consumables which share buff slots or cooldowns, should be grouped. The same applies to tokens.
 
 
 **Rogue**
 
-Original version: https://drive.google.com/file/d/1u8Jebp5muZ3-uNuUHbixt6HKxnjo4KqH/view?usp=sharing
+Original version left / Baroque edit right
 
-Baroque edit: https://drive.google.com/file/d/1CBdMvDMc1ZwGI7ADLa4mZBHrWXbjtEq6/view?usp=sharing
+![img](https://imgur.com/jCUSbgF.png)
+
+
 
 
 **Mage**
 
-Original version: https://drive.google.com/file/d/1jVxV7d72aGvV5W154tsSNb1znR9GS1Tq/view?usp=sharing
+Original version left / Baroque edit right
 
-Baroque edit: https://drive.google.com/file/d/1e3M9zCJJe77gJhN3vJac1DkNKR4WANLz/view?usp=sharing
+![img](https://imgur.com/lf0tfw9.png)
+
 
 
 
