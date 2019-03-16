@@ -1,7 +1,7 @@
 # EngInventory
 EngInventory - 2019 Baroque edit
 
-One-bag with item type auto-sort. I've modded it to use sensible categorization/auto sorting for both leveling and end-game Vanilla 1.12. It's modified for the requirements of an endgame raider.
+One-bag with item type auto-sort. I've modded it to use sensible categorization/auto sorting for both leveling and end-game Vanilla 1.12. It's modified for all the requirements of a serious end-game raider.
 
 Modifications:
 
