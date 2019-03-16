@@ -47,4 +47,4 @@ Original version left / Baroque edit right
 
 **Screenshot taken while testing consumable categorization:**
 
-![img](https://imgur.com/LsXfAPa.png)
+![img](https://imgur.com/n8n5WcO.png)
