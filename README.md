@@ -16,18 +16,18 @@ Modifications:
 **Difference examples**
 
 
-Rogue
+**Rogue**
 
 Original version: https://drive.google.com/file/d/1u8Jebp5muZ3-uNuUHbixt6HKxnjo4KqH/view?usp=sharing
 
-**Baroque edit**: https://drive.google.com/file/d/1CBdMvDMc1ZwGI7ADLa4mZBHrWXbjtEq6/view?usp=sharing
+Baroque edit: https://drive.google.com/file/d/1CBdMvDMc1ZwGI7ADLa4mZBHrWXbjtEq6/view?usp=sharing
 
 
-Mage
+**Mage**
 
 Original version: https://drive.google.com/file/d/1jVxV7d72aGvV5W154tsSNb1znR9GS1Tq/view?usp=sharing
 
-**Baroque edit**: https://drive.google.com/file/d/1e3M9zCJJe77gJhN3vJac1DkNKR4WANLz/view?usp=sharing
+Baroque edit: https://drive.google.com/file/d/1e3M9zCJJe77gJhN3vJac1DkNKR4WANLz/view?usp=sharing
 
 
 
