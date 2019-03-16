@@ -14,21 +14,18 @@ Modifications:
 - Modified categorization string search patterns
 - Added over 200 items to specifically categorize (default override)
 
-The general idea is that similar consumables which share buff slots or cooldowns, should be grouped. The same applies to tokens and class items. Also, buffs which are clicked pre-combat (food buffs, elixirs, weapon buffs), are placed to the left, for easier ergonomic access. Potions and runes should always be keybound to action bars, so they're placed to the right. This leads to the following 15 groups, with subgroups:
+The general idea is that similar consumables which share buff slots or cooldowns, should be grouped. The same applies to tokens and class items. Also, buffs which are clicked pre-combat (food buffs, elixirs, weapon buffs), are placed to the left, for easier ergonomic access. Potions and runes should always be keybound to action bars, so they're placed to the right. This leads to the following 15 groups, with most having subgroups as well:
 
 15: explosives / 14: projectiles, soul shards / 13: gray items, empty bag slots
-
 12: boe items, class books, recipees, general reagents, tradegoods / 11: tradeskill, tradeskill created / 10: other soulbound
-
 9: rogue poisons, weapon buffs / 8: other keys, quest items, misc items, tokens / 7: gear which has been equipped
-
 6: flasks, zanza buffs, blasted land buffs, elixirs / 5: bandages, juju's, other consumables / 4: potions, runes
-
 3: food (including food buffs), drinks / 2: class reagents / 1: hearthstone, passive class items, trade tools, mounts, mini pets
 
-Subgroups with a group are alphabetically sorted, items within subgroups are also alphabetically sorted.
+Within a group, subgroups are alphabetically sorted.
+Within a subgroup, items are also alphabetically sorted.
 
-**Difference examples, original EngInventory version vs Baroque edit**
+**Difference examples, EngInventory original version vs Baroque edit**
 
 **Demo video across all classes**: https://www.youtube.com/watch?v=YBkd8vHO25I
 
