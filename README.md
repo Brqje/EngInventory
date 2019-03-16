@@ -13,8 +13,22 @@ Modifications:
 - Modified categorization string search patterns
 - Added over 200 items to specifically categorize (default override)
 
-Rogue bag screenshot: https://drive.google.com/open?id=1hyfxUCcc8cDVYhV8X6HTbSkCn9nBkvAM
+Difference examples:
 
-Mage bag screenshot: https://drive.google.com/open?id=1tZdofgxVuHcrVSIXBxt31lw84UwftmKW
+
+Rogue
+
+Original version: https://drive.google.com/file/d/1u8Jebp5muZ3-uNuUHbixt6HKxnjo4KqH/view?usp=sharing
+
+Baroque edit: https://drive.google.com/file/d/1CBdMvDMc1ZwGI7ADLa4mZBHrWXbjtEq6/view?usp=sharing
+
+
+Mage
+
+Original version: https://drive.google.com/file/d/1jVxV7d72aGvV5W154tsSNb1znR9GS1Tq/view?usp=sharing
+
+Baroque edit: https://drive.google.com/file/d/1e3M9zCJJe77gJhN3vJac1DkNKR4WANLz/view?usp=sharing
+
+
 
 Demo video across all classes: https://www.youtube.com/watch?v=YBkd8vHO25I
