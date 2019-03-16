@@ -45,14 +45,14 @@ Version history
             Fixed bug with gametooltip changes in 1.10
             Integrated changes from the modified version of EngInventory posted on auctioneer's site
 	    Fixed error with hunter training window
-20190314 - Baroque edit
-           Updated TOC for 1.12
-           Extended bag slot support from 109 slots to 128 slots (16-slot main bag & 4x 28-slot bag)
-           Modified OpenAllBags hook to allow Blizzard "Open All Bags" keybind to actually toggle, instead of just open bags (similar to default UI behaviour)
-           Modified default settings: scale from 0.64 to 1 and columns from 9 to 10
-           Modified categorization groups
-           Modified categorization string search patterns
-           Added over 200 items to specifically categorize (default override)
+ 20190314 - Baroque edit
+            Updated TOC for 1.12
+            Extended bag slot support from 109 slots to 128 slots (16-slot main bag & 4x 28-slot bag)
+            Modified OpenAllBags hook to allow Blizzard "Open All Bags" keybind to actually toggle, instead of just open bags (similar to default UI behaviour)
+            Modified default settings: scale from 0.64 to 1 and columns from 9 to 10
+            Modified categorization groups
+            Modified categorization string search patterns
+            Added over 200 items to specifically categorize (default override)
 
 
 Credits
