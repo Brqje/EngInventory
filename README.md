@@ -37,13 +37,20 @@ Within a subgroup, items are also alphabetically sorted.
 
 Original version left / Baroque edit right
 
-![img](https://imgur.com/jCUSbgF.png)
+![img](https://imgur.com/WbBAqKL.png)
 
 **Mage**
 
 Original version left / Baroque edit right
 
-![img](https://imgur.com/lf0tfw9.png)
+![img](https://imgur.com/9HCXFWa.png)
+
+**Warrior**
+
+Original version left / Baroque edit right
+
+![img](https://imgur.com/0PduxwA.png)
+
 
 **Screenshot taken while testing consumable categorization:**
 
