@@ -249,20 +249,23 @@ EngInventory_DefaultSearchList = {
 	-- matching patterns in lines placed higher in this list will have precedence over matching patterns in lines placed lower in this list
 	{ "USED_PROJECTILE_SLOTS",	"USED_PROJECTILE_SLOT",		"",	"" },
 	{ "GRAY_ITEMS",			"ITEMRARITY_0",			"",	"" },
-	-- include .*Classes: to string search pattern first, attempt to avoid triggering on tooltip item set listings, possibly resulting in faulty catagorization
-	{ "EQUIPPED_01_HEAD",		"EQUIPPED",			"Head.*Classes:",	"" }, -- InventorySlotId 1
-	{ "EQUIPPED_02_NECK",		"EQUIPPED",			"Neck.*Classes:",	"" }, -- InventorySlotId 2
-	{ "EQUIPPED_03_SHOULDER",		"EQUIPPED",			"Shoulder.*Classes:",	"" }, -- InventorySlotId 3
-	{ "EQUIPPED_04_BACK",		"EQUIPPED",			"Back.*Classes:",	"" }, -- InventorySlotId 15
-	{ "EQUIPPED_05_CHEST",		"EQUIPPED",			"Chest.*Classes:",	"" }, -- InventorySlotId 5
-	{ "EQUIPPED_08_WRIST",		"EQUIPPED",			"Wrist.*Classes:",	"" }, -- InventorySlotId 9
-	{ "EQUIPPED_09_HANDS",		"EQUIPPED",			"Hands.*Classes:",	"" }, -- InventorySlotId 10
-	{ "EQUIPPED_10_WAIST",		"EQUIPPED",			"Waist.*Classes:",	"" }, -- InventorySlotId 6
-	{ "EQUIPPED_11_LEGS",		"EQUIPPED",			"Legs.*Classes:",	"" }, -- InventorySlotId 7
-	{ "EQUIPPED_12_FEET",		"EQUIPPED",			"Feet.*Classes:",	"" }, -- InventorySlotId 8
-	{ "EQUIPPED_13_FINGER",		"EQUIPPED",			"Finger.*Classes:",	"" }, -- InventorySlotId 11 & 12
-	{ "EQUIPPED_14_TRINKET",		"EQUIPPED",			"Trinket.*Classes:",	"" }, -- InventorySlotId 13 & 14
-	-- search again without .*Classes: string search pattern
+	-- include regular expression to string search pattern first, filter item sets first, to avoid triggering on tooltip item set listings
+	{ "EQUIPPED_01_HEAD",		"EQUIPPED",			"Head.*\(.\/.\)",	"" }, -- InventorySlotId 1
+	{ "EQUIPPED_02_NECK",		"EQUIPPED",			"Neck.*\(.\/.\)",	"" }, -- InventorySlotId 2
+	{ "EQUIPPED_03_SHOULDER",		"EQUIPPED",			"Shoulder.*\(.\/.\)",	"" }, -- InventorySlotId 3
+	{ "EQUIPPED_04_BACK",		"EQUIPPED",			"Back.*\(.\/.\)",	"" }, -- InventorySlotId 15
+	{ "EQUIPPED_05_CHEST",		"EQUIPPED",			"Chest.*\(.\/.\)",	"" }, -- InventorySlotId 5
+	{ "EQUIPPED_08_WRIST",		"EQUIPPED",			"Wrist.*\(.\/.\)",	"" }, -- InventorySlotId 9
+	{ "EQUIPPED_09_HANDS",		"EQUIPPED",			"Hands.*\(.\/.\)",	"" }, -- InventorySlotId 10
+	{ "EQUIPPED_10_WAIST",		"EQUIPPED",			"Waist.*\(.\/.\)",	"" }, -- InventorySlotId 6
+	{ "EQUIPPED_11_LEGS",		"EQUIPPED",			"Legs.*\(.\/.\)",	"" }, -- InventorySlotId 7
+	{ "EQUIPPED_12_FEET",		"EQUIPPED",			"Feet.*\(.\/.\)",	"" }, -- InventorySlotId 8
+	{ "EQUIPPED_13_FINGER",		"EQUIPPED",			"Finger.*\(.\/.\)",	"" }, -- InventorySlotId 11 & 12
+	{ "EQUIPPED_14_TRINKET",		"EQUIPPED",			"Trinket.*\(.\/.\)",	"" }, -- InventorySlotId 13 & 14
+	{ "EQUIPPED_15_MAINHAND",		"EQUIPPED",			"Main Hand.*\(.\/.\)",	"" }, -- InventorySlotId 16
+	{ "EQUIPPED_16_ONEHAND",		"EQUIPPED",			"One.Hand.*\(.\/.\)",	"" }, -- InventorySlotId 16 and 17
+	{ "EQUIPPED_17_OFFHAND",		"EQUIPPED",			"Off Hand.*\(.\/.\)",	"" }, -- InventorySlotId 17
+	-- search again regular expression string search pattern (non set items)
 	{ "EQUIPPED_01_HEAD",		"EQUIPPED",			"Head",	"" }, -- InventorySlotId 1
 	{ "EQUIPPED_02_NECK",		"EQUIPPED",			"Neck",	"" }, -- InventorySlotId 2
 	{ "EQUIPPED_03_SHOULDER",		"EQUIPPED",			"Shoulder",	"" }, -- InventorySlotId 3
@@ -300,20 +303,23 @@ EngInventory_DefaultSearchList = {
 	{ "MISC",			"",				"",	"loc::miscellaneous" },
 	{ "REAGENT",			"",				"",	"loc::reagent" },
 	{ "CONSUMABLE",			"",				"",	"loc::consumable" },
-	-- include .*Classes: to string search pattern first, attempt to avoid triggering on tooltip item set listings, possibly resulting in faulty catagorization
-	{ "OTHERSOULBOUND_01_HEAD",		"SOULBOUND",			"Head.*Classes:",	"" }, -- InventorySlotId 1
-	{ "OTHERSOULBOUND_02_NECK",		"SOULBOUND",			"Neck.*Classes:",	"" }, -- InventorySlotId 2
-	{ "OTHERSOULBOUND_03_SHOULDER",		"SOULBOUND",			"Shoulder.*Classes:",	"" }, -- InventorySlotId 3
-	{ "OTHERSOULBOUND_04_BACK",		"SOULBOUND",			"Back.*Classes:",	"" }, -- InventorySlotId 15
-	{ "OTHERSOULBOUND_05_CHEST",		"SOULBOUND",			"Chest.*Classes:",	"" }, -- InventorySlotId 5
-	{ "OTHERSOULBOUND_08_WRIST",		"SOULBOUND",			"Wrist.*Classes:",	"" }, -- InventorySlotId 9
-	{ "OTHERSOULBOUND_09_HANDS",		"SOULBOUND",			"Hands.*Classes:",	"" }, -- InventorySlotId 10
-	{ "OTHERSOULBOUND_10_WAIST",		"SOULBOUND",			"Waist.*Classes:",	"" }, -- InventorySlotId 6
-	{ "OTHERSOULBOUND_11_LEGS",		"SOULBOUND",			"Legs.*Classes:",	"" }, -- InventorySlotId 7
-	{ "OTHERSOULBOUND_12_FEET",		"SOULBOUND",			"Feet.*Classes:",	"" }, -- InventorySlotId 8
-	{ "OTHERSOULBOUND_13_FINGER",		"SOULBOUND",			"Finger.*Classes:",	"" }, -- InventorySlotId 11 & 12
-	{ "OTHERSOULBOUND_14_TRINKET",		"SOULBOUND",			"Trinket.*Classes:",	"" }, -- InventorySlotId 13 & 14
-	-- search again without .*Classes: string search pattern
+	-- include regular expression to string search pattern first, filter item sets first, to avoid triggering on tooltip item set listings
+	{ "OTHERSOULBOUND_01_HEAD",		"SOULBOUND",			"Head.*\(.\/.\)",	"" }, -- InventorySlotId 1
+	{ "OTHERSOULBOUND_02_NECK",		"SOULBOUND",			"Neck.*\(.\/.\)",	"" }, -- InventorySlotId 2
+	{ "OTHERSOULBOUND_03_SHOULDER",		"SOULBOUND",			"Shoulder.*\(.\/.\)",	"" }, -- InventorySlotId 3
+	{ "OTHERSOULBOUND_04_BACK",		"SOULBOUND",			"Back.*\(.\/.\)",	"" }, -- InventorySlotId 15
+	{ "OTHERSOULBOUND_05_CHEST",		"SOULBOUND",			"Chest.*\(.\/.\)",	"" }, -- InventorySlotId 5
+	{ "OTHERSOULBOUND_08_WRIST",		"SOULBOUND",			"Wrist.*\(.\/.\)",	"" }, -- InventorySlotId 9
+	{ "OTHERSOULBOUND_09_HANDS",		"SOULBOUND",			"Hands.*\(.\/.\)",	"" }, -- InventorySlotId 10
+	{ "OTHERSOULBOUND_10_WAIST",		"SOULBOUND",			"Waist.*\(.\/.\)",	"" }, -- InventorySlotId 6
+	{ "OTHERSOULBOUND_11_LEGS",		"SOULBOUND",			"Leg.*\(.\/.\)",	"" }, -- InventorySlotId 7
+	{ "OTHERSOULBOUND_12_FEET",		"SOULBOUND",			"Feet.*\(.\/.\)",	"" }, -- InventorySlotId 8
+	{ "OTHERSOULBOUND_13_FINGER",		"SOULBOUND",			"Finger.*\(.\/.\)",	"" }, -- InventorySlotId 11 & 12
+	{ "OTHERSOULBOUND_14_TRINKET",		"SOULBOUND",			"Trinket.*\(.\/.\)",	"" }, -- InventorySlotId 13 & 14
+	{ "OTHERSOULBOUND_15_MAINHAND",		"SOULBOUND",			"Main Hand.*\(.\/.\)",	"" }, -- InventorySlotId 16
+	{ "OTHERSOULBOUND_16_ONEHAND",		"SOULBOUND",			"One.Hand.*\(.\/.\)",	"" }, -- InventorySlotId 16 and 17
+	{ "OTHERSOULBOUND_17_OFFHAND",		"SOULBOUND",			"Off Hand.*\(.\/.\)",	"" }, -- InventorySlotId 17
+	-- search again regular expression string search pattern (non set items)
 	{ "OTHERSOULBOUND_01_HEAD",		"SOULBOUND",			"Head",	"" }, -- InventorySlotId 1
 	{ "OTHERSOULBOUND_02_NECK",		"SOULBOUND",			"Neck",	"" }, -- InventorySlotId 2
 	{ "OTHERSOULBOUND_03_SHOULDER",		"SOULBOUND",			"Shoulder",	"" }, -- InventorySlotId 3
