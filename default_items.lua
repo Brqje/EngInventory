@@ -345,6 +345,7 @@ EngInventory_DefaultSearchList = {
 	{ "OTHERSOULBOUND_19_RANGED",		"SOULBOUND",			"Wand",	"" }, -- InventorySlotId 18
 	{ "OTHERSOULBOUND_19_RANGED",		"SOULBOUND",			"Relic",	"" }, -- InventorySlotId 18
 	{ "OTHERSOULBOUND",		"SOULBOUND",			"",	"" },
+	-- tradegoods last, to stop it from filtering soulbound engineering trinkets and probably other soulbound stuff it shouldn't include
 	{ "TRADEGOODS",			"",				"",	"loc::tradegoods" },
 
 }
