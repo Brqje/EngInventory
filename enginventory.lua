@@ -1468,7 +1468,11 @@ function EngInventory_OnEvent(event)
 				if (EngInventoryConfig[ENGINVENTORY_PLAYERID]["tradeskill_items"] == nil) then
 					EngInventoryConfig[ENGINVENTORY_PLAYERID]["tradeskill_items"] = {};
 				end
-
+				---- reciperadar fix by Zerf start
+				if ( EngInventoryConfig[ENGINVENTORY_PLAYERID]["tradeskill_production"] == nil ) then
+					EngInventoryConfig[ENGINVENTORY_PLAYERID]["tradeskill_production"] = {};
+				end
+				---- reciperadar fix by Zerf end
 				EngInventoryConfig[ENGINVENTORY_PLAYERID]["trades"][tradeskillName] = {};	-- wipe it out, we're refreshing it now anyway
 
 				if (GetNumCrafts() > 0) then
