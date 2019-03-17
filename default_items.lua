@@ -265,7 +265,7 @@ EngInventory_DefaultSearchList = {
 	{ "EQUIPPED_15_MAINHAND",		"EQUIPPED",			"Main Hand.*\(.\/.\)",	"" }, -- InventorySlotId 16
 	{ "EQUIPPED_16_ONEHAND",		"EQUIPPED",			"One.Hand.*\(.\/.\)",	"" }, -- InventorySlotId 16 and 17
 	{ "EQUIPPED_17_OFFHAND",		"EQUIPPED",			"Off Hand.*\(.\/.\)",	"" }, -- InventorySlotId 17
-	-- search again regular expression string search pattern (non set items)
+	-- search again without regular expression string search pattern (non set items)
 	{ "EQUIPPED_01_HEAD",		"EQUIPPED",			"Head",	"" }, -- InventorySlotId 1
 	{ "EQUIPPED_02_NECK",		"EQUIPPED",			"Neck",	"" }, -- InventorySlotId 2
 	{ "EQUIPPED_03_SHOULDER",		"EQUIPPED",			"Shoulder",	"" }, -- InventorySlotId 3
@@ -318,7 +318,7 @@ EngInventory_DefaultSearchList = {
 	{ "OTHERSOULBOUND_15_MAINHAND",		"SOULBOUND",			"Main Hand.*\(.\/.\)",	"" }, -- InventorySlotId 16
 	{ "OTHERSOULBOUND_16_ONEHAND",		"SOULBOUND",			"One.Hand.*\(.\/.\)",	"" }, -- InventorySlotId 16 and 17
 	{ "OTHERSOULBOUND_17_OFFHAND",		"SOULBOUND",			"Off Hand.*\(.\/.\)",	"" }, -- InventorySlotId 17
-	-- search again regular expression string search pattern (non set items)
+	-- search again without regular expression string search pattern (non set items)
 	{ "OTHERSOULBOUND_01_HEAD",		"SOULBOUND",			"Head",	"" }, -- InventorySlotId 1
 	{ "OTHERSOULBOUND_02_NECK",		"SOULBOUND",			"Neck",	"" }, -- InventorySlotId 2
 	{ "OTHERSOULBOUND_03_SHOULDER",		"SOULBOUND",			"Shoulder",	"" }, -- InventorySlotId 3
