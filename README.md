@@ -29,7 +29,7 @@ The general idea is that similar consumables should be grouped. The same applies
 Within a group, subgroups are alphabetically sorted.
 Within a subgroup, items are also alphabetically sorted.
 
-**Demo video across all classes: https://www.youtube.com/watch?v=Q8m5snvU9t8**
+# **Demo video across all classes: https://www.youtube.com/watch?v=Q8m5snvU9t8**
 
 **Difference examples, EngInventory original version vs Baroque edit:**
 
