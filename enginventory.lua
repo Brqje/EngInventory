@@ -1,4 +1,4 @@
-ENGINVENTORY_VERSION = "20190317";
+ENGINVENTORY_VERSION = "20190318";
 --[[ Inventory replacement - By Engival of Shadowsong
 
  This mod is heavily inspired by AllInOneInventory. (basically learning how to script mods as AIOI as a base)
@@ -45,7 +45,7 @@ Version history
             Fixed bug with gametooltip changes in 1.10
             Integrated changes from the modified version of EngInventory posted on auctioneer's site
 	    Fixed error with hunter training window
- 20190317 - Baroque edit
+ 20190318 - Baroque edit
             Updated TOC for 1.12
             Extended bag slot support from 109 slots to 128 slots (16-slot main bag & 4x 28-slot bag)
             Modified OpenAllBags hook to allow Blizzard "Open All Bags" keybind to actually toggle, instead of just open bags (similar to default UI behaviour)

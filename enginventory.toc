@@ -1,5 +1,5 @@
 ## Interface: 11200
-## Title: EngInventory - 2019 Baroque edit
+## Title: EngInventory |cFFFFFFFF- Baroque edit|r
 ## Notes: AutoSorting Inventory Replacement
 ## Author: Engival
 ## RequiredDeps: 
