@@ -60,7 +60,7 @@ Original version left / Baroque edit right
 **FAQ**
 
 **Q:** I have a non-English WoW client. Why don't I get similar categorization results as in your screenshots/video?
-**A:** EngInventory's categorization relies heavily on string search patterns, thus being localization dependent. It's the foundation of how the addon works. I could add handling for other localizations, but I'd need massive input.
+**A:** EngInventory's categorization relies heavily on string search patterns, thus being localization dependent. It's the foundation of how the addon works. I could localization handling for other languages, but I'd need massive input.
 
 **Q:** Why did you not base this modification on the Vanilla version of EngBags?
 **A:** EngBags is quite the mess. I avoided it and stuck to modifying the original: EngInventory.
