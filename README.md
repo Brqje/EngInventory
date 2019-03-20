@@ -66,5 +66,5 @@ Original version left / Baroque edit right
 **A:** EngBags is quite the mess. I avoided it and stuck to modifying the original: EngInventory.
 
 **Q:** What about keyring support?
-**A:** Maybe in the future, but probably not. Normal keys are perfectly categorized in your keyring anyway.
+**A:** Maybe in the future, but probably not. Normal keys are perfectly categorized in your keyring anyway, avoiding bag clutter.
 
