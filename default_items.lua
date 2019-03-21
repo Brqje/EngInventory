@@ -174,7 +174,14 @@ EngInventory_DefaultItemOverrides = {
 	["11512:0:0:0-SB"] = "TOKEN_1_FELWOOD",	-- Patch of Tainted Skin
 	["12384:0:0:0-SB"] = "TOKEN_1_WINTERSPRING",	-- Cache of Mau'ari
 	["12846:0:0:0-SB"] = "TOKEN_1_ARGENTDAWN",	-- Argent Dawn Commission (Seal of the Dawn, Rune of the Dawn, Mark of the Champion not listed)
+	["12840:0:0:0-SB"] = "TOKEN_1_ARGENTDAWN",	-- Minion's Scourgestone
+	["12841:0:0:0-SB"] = "TOKEN_1_ARGENTDAWN",	-- Invader's Scourgestone
+	["12843:0:0:0-SB"] = "TOKEN_1_ARGENTDAWN",	-- Corruptor's Scourgestone
 	["12844:0:0:0-SB"] = "TOKEN_1_ARGENTDAWN",	-- Argent Dawn Valor Token
+	["19322:0:0:0-SB"] = "TOKEN_1_BATTLEGROUND",	-- Warsong Mark of Honor
+	["20558:0:0:0-SB"] = "TOKEN_1_BATTLEGROUND",	-- Warsong Gulch Mark of Honor
+	["20559:0:0:0-SB"] = "TOKEN_1_BATTLEGROUND",	-- Arathi Basin Mark of Honor
+	["20560:0:0:0-SB"] = "TOKEN_1_BATTLEGROUND",	-- Alterac Valley Mark of Honor
 	["20404:0:0:0"] = "TOKEN_1_CENARIONCIRCLE",	-- Encrypted Twilight Text
 	["20406:0:0:0"] = "TOKEN_1_CENARIONCIRCLE",	-- Twilight Cultist Mantle
 	["20407:0:0:0"] = "TOKEN_1_CENARIONCIRCLE",	-- Twilight Cultist Robe
@@ -215,6 +222,11 @@ EngInventory_DefaultItemOverrides = {
 	["21762:0:0:0"] = "TOKEN_1_AHNQIRAJ",	-- Greater Scarab Coffer Key
 	["21229:0:0:0-SB"] = "TOKEN_1_AHNQIRAJ",	-- Qiraji Lord's Insignia
 	["21230:0:0:0-SB"] = "TOKEN_1_AHNQIRAJ",	-- Ancient Qiraji Artifact
+	["22527:0:0:0"] = "TOKEN_1_ARGENTDAWN",	-- Core of Elements
+	["22528:0:0:0"] = "TOKEN_1_ARGENTDAWN",	-- Dark Iron Scraps
+	["22529:0:0:0"] = "TOKEN_1_ARGENTDAWN",	-- Savage Frond
+	["22523:0:0:0-SB"] = "TOKEN_1_ARGENTDAWN",	-- Insignia of the Dawn
+	["22524:0:0:0-SB"] = "TOKEN_1_ARGENTDAWN",	-- Insignia of the Crusade
 	["22373:0:0:0"] = "TOKEN_1_ARGENTDAWN",	-- Wartorn Leather Scrap
 	["22374:0:0:0"] = "TOKEN_1_ARGENTDAWN",	-- Wartorn Chain Scrap
 	["22375:0:0:0"] = "TOKEN_1_ARGENTDAWN",	-- Wartorn Plate Scrap
@@ -285,7 +297,7 @@ EngInventory_DefaultSearchList = {
 	{ "EQUIPPED_17_OFFHAND",		"EQUIPPED",			"Off Hand",	"" }, -- InventorySlotId 17
 	{ "EQUIPPED_18_TWOHAND",		"EQUIPPED",			"Two.Hand",	"" }, -- InventorySlotId 16
 	{ "EQUIPPED_19_RANGED",		"EQUIPPED",			"Crossbow",	"" }, -- InventorySlotId 18
-	{ "EQUIPPED_19_RANGED",		"EQUIPPED",			"Ranged",	"" }, -- InventorySlotId 18
+	{ "EQUIPPED_19_RANGED",		"EQUIPPED",			"Ranged",	"" }, -- InventorySlotId 18 (Bow)
 	{ "EQUIPPED_19_RANGED",		"EQUIPPED",			"Gun",	"" }, -- InventorySlotId 18
 	-- Thrown weapons get consumed in Vanilla
 	-- { "EQUIPPED_19_RANGED",		"EQUIPPED",			"Thrown",	"" }, -- InventorySlotId 18
@@ -338,7 +350,7 @@ EngInventory_DefaultSearchList = {
 	{ "OTHERSOULBOUND_17_OFFHAND",		"SOULBOUND",			"Off Hand",	"" }, -- InventorySlotId 17
 	{ "OTHERSOULBOUND_18_TWOHAND",		"SOULBOUND",			"Two.Hand",	"" }, -- InventorySlotId 16
 	{ "OTHERSOULBOUND_19_RANGED",		"SOULBOUND",			"Crossbow",	"" }, -- InventorySlotId 18
-	{ "OTHERSOULBOUND_19_RANGED",		"SOULBOUND",			"Ranged",	"" }, -- InventorySlotId 18
+	{ "OTHERSOULBOUND_19_RANGED",		"SOULBOUND",			"Ranged",	"" }, -- InventorySlotId 18 (Bow)
 	{ "OTHERSOULBOUND_19_RANGED",		"SOULBOUND",			"Gun",	"" }, -- InventorySlotId 18
 	-- Thrown weapons get consumed in Vanilla
 	-- { "OTHERSOULBOUND_19_RANGED",		"SOULBOUND",			"Thrown",	"" }, -- InventorySlotId 18
