@@ -145,8 +145,6 @@ ENGINVENTORY_LOCALIZATION = {
 			{ "JUJU", "Juju" },
 			{ "BANDAGE", " Bandage" },
 			{ "RUNE", " Healthstone" },
-			{ "RUNE", "Conjured .* Restores ([0-9.]+) to ([0-9.]+) mana" }, -- mage gems
-			{ "RUNE", "Rune .* Restores ([0-9.]+) to ([0-9.]+) mana" }, -- demonic runes and dark runes
 			{ "EXPLOSIVE", "Engineering .* radius" }, -- engineering bombs
 			{ "QUESTITEMS", "Use: Bind pages [0-9]" },	-- shredder operating manual & green hills of stranglethorn
 			{ "KEYS", " Key" },
