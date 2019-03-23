@@ -12,7 +12,7 @@ Modifications:
 - Modified default settings: scale from 0.64 to 1 and columns from 9 to 10
 - Modified categorization groups
 - Modified categorization string search patterns
-- Added over 200 items to specifically categorize (default override)
+- Added nearly 300 items to specifically categorize (default override)
 
 The general idea is that similar consumables should be grouped. The same applies to tokens and class items. Also, buffs which are generally clicked pre-combat (food buffs, elixirs, weapon buffs), are placed to the left, for easy ergonomic access. Potions and runes should always be keybound to action bars, so they're placed to the right. Item sorting is split between 15 groups, with most having subgroups as well:
 
