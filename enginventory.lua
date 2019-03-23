@@ -50,6 +50,7 @@ Version history
             Extended bag slot support from 109 slots to 128 slots (16-slot main bag & 4x 28-slot bag)
             Modified OpenAllBags hook to allow Blizzard "Open All Bags" keybind to actually toggle, instead of just open bags (similar to default UI behaviour)
             Modified default settings: scale from 0.64 to 1 and columns from 9 to 10
+			Modified default color settings: background and borders from blue to dark gray
             Modified categorization groups
             Modified categorization string search patterns
             Added over 300 items to specifically categorize (default override)
@@ -935,15 +936,15 @@ function EngInventory_SetDefaultValues(re)
         EI_SetDefault("newItemColor2_B", 0.4 , 1+re, EngInventory_NumericRange, 0, 1.0);
 
 	for i = 1, ENGINVENTORY_MAINWINDOWCOLORIDX do
-		EI_SetDefault("bar_colors_"..i.."_background_r", 0.0, 1+re, EngInventory_NumericRange, 0, 1.0);
-		EI_SetDefault("bar_colors_"..i.."_background_g", 0.25, 1+re, EngInventory_NumericRange, 0, 1.0);
-		EI_SetDefault("bar_colors_"..i.."_background_b", 0.5, 1+re, EngInventory_NumericRange, 0, 1.0);
-		EI_SetDefault("bar_colors_"..i.."_background_a", 0.5, 1+re, EngInventory_NumericRange, 0, 1.0);
+		EI_SetDefault("bar_colors_"..i.."_background_r", 0.15, 1+re, EngInventory_NumericRange, 0, 1.0); -- default r 0
+		EI_SetDefault("bar_colors_"..i.."_background_g", 0.15, 1+re, EngInventory_NumericRange, 0, 1.0); -- default g 0.25
+		EI_SetDefault("bar_colors_"..i.."_background_b", 0.15, 1+re, EngInventory_NumericRange, 0, 1.0); -- default b 0.5
+		EI_SetDefault("bar_colors_"..i.."_background_a", 0.5, 1+re, EngInventory_NumericRange, 0, 1.0); -- default a 0.5
 
-		EI_SetDefault("bar_colors_"..i.."_border_r", 0.0, 1+re, EngInventory_NumericRange, 0, 1.0);
-		EI_SetDefault("bar_colors_"..i.."_border_g", 0.5, 1+re, EngInventory_NumericRange, 0, 1.0);
-		EI_SetDefault("bar_colors_"..i.."_border_b", 1.0, 1+re, EngInventory_NumericRange, 0, 1.0);
-		EI_SetDefault("bar_colors_"..i.."_border_a", 0.5, 1+re, EngInventory_NumericRange, 0, 1.0);
+		EI_SetDefault("bar_colors_"..i.."_border_r", 0.0, 1+re, EngInventory_NumericRange, 0, 1.0); -- default r 0
+		EI_SetDefault("bar_colors_"..i.."_border_g", 0.0, 1+re, EngInventory_NumericRange, 0, 1.0); -- default g 0.5
+		EI_SetDefault("bar_colors_"..i.."_border_b", 0.0, 1+re, EngInventory_NumericRange, 0, 1.0); -- default b 1.0
+		EI_SetDefault("bar_colors_"..i.."_border_a", 0.67, 1+re, EngInventory_NumericRange, 0, 1.0); -- default a 0.5
 	end
 
 	EngInventory_SetClassBars();
