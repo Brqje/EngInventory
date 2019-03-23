@@ -52,7 +52,7 @@ Version history
             Modified default settings: scale from 0.64 to 1 and columns from 9 to 10
             Modified categorization groups
             Modified categorization string search patterns
-            Added over 200 items to specifically categorize (default override)
+            Added over 300 items to specifically categorize (default override)
 
 
 Credits
