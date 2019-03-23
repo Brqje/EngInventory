@@ -1028,10 +1028,10 @@ function EngInventory_SetDefaultValues(re)
 	EI_SetDefault("putinslot--TOKEN_1_UNGOROCRATER", 8, 1+re, EngInventory_NumericRange, 1, ENGINVENTORY_MAX_BARS);
 	EI_SetDefault("putinslot--TOKEN_1_WINTERSPRING", 8, 1+re, EngInventory_NumericRange, 1, ENGINVENTORY_MAX_BARS);
 	EI_SetDefault("putinslot--TOKEN_1_ZANDALARTRIBE", 8, 1+re, EngInventory_NumericRange, 1, ENGINVENTORY_MAX_BARS);
+	EI_SetDefault("putinslot--TOKEN_BATTLEGROUND", 8, 1+re, EngInventory_NumericRange, 1, ENGINVENTORY_MAX_BARS);
 	EI_SetDefault("putinslot--TOKEN_LIITA_1", 8, 1+re, EngInventory_NumericRange, 1, ENGINVENTORY_MAX_BARS);
 	EI_SetDefault("putinslot--TOKEN_LIITA_2", 8, 1+re, EngInventory_NumericRange, 1, ENGINVENTORY_MAX_BARS);
 	EI_SetDefault("putinslot--TOKEN_LIITA_3", 8, 1+re, EngInventory_NumericRange, 1, ENGINVENTORY_MAX_BARS);
-	EI_SetDefault("putinslot--TOKEN_BATTLEGROUND", 8, 1+re, EngInventory_NumericRange, 1, ENGINVENTORY_MAX_BARS);
 	
 	EI_SetDefault("putinslot--EQUIPPED", 7, 1+re, EngInventory_NumericRange, 1, ENGINVENTORY_MAX_BARS);
 	EI_SetDefault("putinslot--EQUIPPED_01_HEAD", 7, 1+re, EngInventory_NumericRange, 1, ENGINVENTORY_MAX_BARS);
