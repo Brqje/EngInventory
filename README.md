@@ -61,10 +61,10 @@ Original version left / Baroque edit right
 **FAQ**
 
 **Q:** Why did you not base this modification on the Vanilla version of EngBags?
-**A:** The vanilla version of EngBags is quite the mess. I avoided it and stuck to modifying the original: EngInventory.
+**A:** The vanilla version of EngBags is quite the mess. I've done all of the above changes to the Vanilla version of EngBags too, but opted to publicly post a modification of the original: EngInventory.
 
 **Q:** I have a non-English WoW client. Why don't I get similar categorization results as in your screenshots/video?
-**A:** EngInventory's categorization relies heavily on string search patterns, thus being localization dependent. It's the foundation of how the addon works. I could add localization handling for other languages, but I'd need massive input.
+**A:** EngInventory's categorization relies heavily on string search patterns, thus being localization dependent. It's the foundation of how the addon works. I could add localization handling for other languages, but I'd need input.
 
 **Q:** I've updated to a newer version, but item list categorization updates have no impact?
 **A:** After updating, delete your setting files: \WTF\Account\ACCOUNTNAME\SavedVariables\EngInventory.lua and EngInventory.lua.bak
