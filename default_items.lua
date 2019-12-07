@@ -319,7 +319,7 @@ EngInventory_DefaultItemOverrides = {
 
 EngInventory_DefaultSearchItemsINSERTTO = 2;
 EngInventory_DefaultSearchList = {
-	-- Catagory, Keywords, Tooltip Search, ItemType
+	-- Category, Keywords, Tooltip Search, ItemType
 	-- if you put loc::, the end of the string will be looked up in the localization table
 	-- matching patterns in lines placed higher in this list will have precedence over matching patterns in lines placed lower in this list
 	{ "USED_PROJECTILE_SLOTS",	"USED_PROJECTILE_SLOT",		"",	"" },

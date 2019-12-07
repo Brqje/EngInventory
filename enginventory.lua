@@ -624,7 +624,7 @@ EngInventory_ConfigOptions_Default = {
 	{},	---------------------------------------------------------------------------------------
 	{
 		{ ["type"] = "Text", ["ID"] = 1, ["width"] = 0.025+0.025+0.025 + 0.005, ["color"] = { 1,0,0.25 }, ["text"] = "" },
-		{ ["type"] = "Text", ["ID"] = 2, ["width"] = 0.20, ["color"] = { 1,0,0.25 }, ["text"] = "Catagory" },
+		{ ["type"] = "Text", ["ID"] = 2, ["width"] = 0.20, ["color"] = { 1,0,0.25 }, ["text"] = "Category" },
 		{ ["type"] = "Text", ["ID"] = 3, ["width"] = 0.20, ["color"] = { 1,0,0.25 }, ["text"] = "Keywords" },
 		{ ["type"] = "Text", ["ID"] = 4, ["width"] = 0.35, ["color"] = { 1,0,0.25 }, ["text"] = "Tooltip Search" },
 		{ ["type"] = "Text", ["ID"] = 5, ["width"] = 0.170, ["color"] = { 1,0,0.25 }, ["text"] = "ItemType" }
@@ -1016,7 +1016,7 @@ function EngInventory_SetDefaultValues(re)
 
 	EI_SetDefault("putinslot--KEYS_1_OTHER", 8, 1+re, EngInventory_NumericRange, 1, ENGINVENTORY_MAX_BARS); -- items which act as keys
 	EI_SetDefault("putinslot--MISC", 8, 1+re, EngInventory_NumericRange, 1, ENGINVENTORY_MAX_BARS);
-	EI_SetDefault("putinslot--OTHERORUNKNOWN", 8, 1+re, EngInventory_NumericRange, 1, ENGINVENTORY_MAX_BARS);      -- if not soulbound, but doesn't match any other catagory, it goes here
+	EI_SetDefault("putinslot--OTHERORUNKNOWN", 8, 1+re, EngInventory_NumericRange, 1, ENGINVENTORY_MAX_BARS);      -- if not soulbound, but doesn't match any other category, it goes here
 	EI_SetDefault("putinslot--QUESTITEMS", 8, 1+re, EngInventory_NumericRange, 1, ENGINVENTORY_MAX_BARS);
 	EI_SetDefault("putinslot--TOKEN_1", 8, 1+re, EngInventory_NumericRange, 1, ENGINVENTORY_MAX_BARS);
 	EI_SetDefault("putinslot--TOKEN_1_AHNQIRAJ", 8, 1+re, EngInventory_NumericRange, 1, ENGINVENTORY_MAX_BARS); -- Ahn'Qiraj scarabs are used for both Cenarion Circle & Brood of Nozdormu factions
@@ -1141,7 +1141,7 @@ function EngInventory_SetDefaultValues(re)
 	-- find matching catagories that are not assigned
 	for key,value in EngInventoryConfig["item_search_list"] do
 		if (EngInventoryConfig["putinslot--"..value[1]] == nil) then
-			message("EngInventory: Unassigned catagory: "..value[1].." -- It has been assigned to slot 1");
+			message("EngInventory: Unassigned category: "..value[1].." -- It has been assigned to slot 1");
 			EngInventoryConfig["putinslot--"..value[1]] = 1;
 		end
 	end
@@ -1957,7 +1957,7 @@ function EngInventory_PickBar(itm)
 				if (value[1] ~= "") then
 					local found = 1;
 					
-					-- value[1] == catagory to place it in
+					-- value[1] == category to place it in
 
 					-- check keywords
 					if ( (value[2] ~= "") and (itm["keywords"][value[2]] == nil) ) then
@@ -2251,13 +2251,13 @@ function EngInventory_ItemButton_OnEnter()
                         -- move by class
                         if (itm["barClass"] ~= nil) then
 				if (EngInventory_edit_selected ~= "") then
-		                        GameTooltip:AddLine("|cFF00FF7FLeft click to move catagory |r"..EngInventory_edit_selected.."|cFF00FF7F to bar |r"..bar, 1,0.25,0.5 );
+		                        GameTooltip:AddLine("|cFF00FF7FLeft click to move category |r"..EngInventory_edit_selected.."|cFF00FF7F to bar |r"..bar, 1,0.25,0.5 );
 				else
-		                        GameTooltip:AddLine("|cFF00FF7FLeft click to select catagory to move:|r "..itm["barClass"], 1,0.25,0.5 );
+		                        GameTooltip:AddLine("|cFF00FF7FLeft click to select category to move:|r "..itm["barClass"], 1,0.25,0.5 );
 					--GameTooltip:AddLine("Right click to assign this item to a different class", 1,0,0 );
 				end
                         else
-                                GameTooltip:AddLine("error: Item has no catagory", 1,0,0 );
+                                GameTooltip:AddLine("error: Item has no category", 1,0,0 );
                         end
 
                         GameTooltip:Show();
@@ -2295,15 +2295,15 @@ function EngInventory_ItemButton_OnEnter()
                 -- move by class
                 if (itm["barClass"] ~= nil) then
 			if (EngInventory_edit_selected ~= "") then
-				GameTooltip:AddLine("|cFF00FF7FLeft click to move catagory |r"..EngInventory_edit_selected.."|cFF00FF7F to bar |r"..bar, 1,0.25,0.5 );
+				GameTooltip:AddLine("|cFF00FF7FLeft click to move category |r"..EngInventory_edit_selected.."|cFF00FF7F to bar |r"..bar, 1,0.25,0.5 );
 			else
 				GameTooltip:AddLine(" ", 0,0,0);
-				GameTooltip:AddLine("|cFF00FF7FLeft click to select catagory to move:|r "..itm["barClass"], 1,0.25,0.5 );
-				GameTooltip:AddLine("Right click to assign this item to a different catagory", 1,0,0 );
+				GameTooltip:AddLine("|cFF00FF7FLeft click to select category to move:|r "..itm["barClass"], 1,0.25,0.5 );
+				GameTooltip:AddLine("Right click to assign this item to a different category", 1,0,0 );
 				GameTooltip:AddLine(" ", 0,0,0);
 			end
                 else
-                        GameTooltip:AddLine("Item has no catagory", 1,0,0 );
+                        GameTooltip:AddLine("Item has no category", 1,0,0 );
                 end
         end
 
@@ -2582,7 +2582,7 @@ function EngInventory_SlotTargetButton_OnEnter()
                 if (EngInventory_edit_selected ~= "") then
                         GameTooltip:SetOwner(this, "ANCHOR_LEFT");
                         GameTooltip:ClearLines();
-                        GameTooltip:AddLine("|cFF00FF7FLeft click to move catagory |r"..EngInventory_edit_selected.."|cFF00FF7F to bar |r"..bar, 1,0.25,0.5 );
+                        GameTooltip:AddLine("|cFF00FF7FLeft click to move category |r"..EngInventory_edit_selected.."|cFF00FF7F to bar |r"..bar, 1,0.25,0.5 );
                         GameTooltip:Show();
                         return;
 		else
@@ -2737,20 +2737,20 @@ function EngInventory_frame_RightClickMenu_populate(level)
 			info = { ["disabled"] = 1 };
 			UIDropDownMenu_AddButton(info, level);
 
-			info = { ["text"] = "Current Catagory: "..itm["barClass"], ["notClickable"] = 1, ["isTitle"] = 1, ["notCheckable"] = nil };
+			info = { ["text"] = "Current Category: "..itm["barClass"], ["notClickable"] = 1, ["isTitle"] = 1, ["notCheckable"] = nil };
 			UIDropDownMenu_AddButton(info, level);
 
 			info = { ["disabled"] = 1 };
 			UIDropDownMenu_AddButton(info, level);
 
-			info = { ["text"] = "Assign item to catagory:", ["hasArrow"] = 1, ["value"] = "override_placement" };
+			info = { ["text"] = "Assign item to category:", ["hasArrow"] = 1, ["value"] = "override_placement" };
 			if (EngInventoryConfig["item_overrides"][itm["itemlink_override_key"]] ~= nil) then
 				info["checked"] = 1;
 			end
 			UIDropDownMenu_AddButton(info, level);
 
 			info = {
-				["text"] = "Use default catagory assignment",
+				["text"] = "Use default category assignment",
 				["value"] = { ["bagnum"]=bagnum, ["slotnum"]=slotnum },
 				["func"] = EngInventory_RightClick_DeleteItemOverride
 				};
